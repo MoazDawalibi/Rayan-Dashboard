@@ -1,0 +1,33 @@
+.text-order-display{
+  color:#8328f29c  ;
+   font-weight:700  ;
+   border-right:3px solid #8328f29c ;
+   padding-right:10px ;
+   height:20px;
+   width: 125px;
+   font-size: 13px;
+}
+
+
+
+.text-order-container{
+  margin:10px 0 10px -7px ;
+
+  border-bottom:2px  dotted #8328f29c ;
+   display:flex;
+  justify-content: space-between;
+ padding:5
+}
+
+
+@media only screen and (max-width: 850px) {
+
+  .single-order-info{
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  .single-order-info div{
+    width: 90% !important;
+    margin: 10px !important; 
+  }
+}

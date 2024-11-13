@@ -1,0 +1,7 @@
+.permissions-section {
+  padding: 1.5rem;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+
+  white-space: pre-wrap;
+}

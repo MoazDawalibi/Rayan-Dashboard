@@ -1,0 +1,98 @@
+.UpperContainer{
+    margin: 5px;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: #FFF;
+    
+}
+
+.ShopsContainer{
+    margin-top: 15px;
+    max-height: 64vh;
+    overflow-y: auto;
+    
+    
+}
+.ShopsContainer::-webkit-scrollbar {
+    width: 9px;
+  }
+  
+  .ShopsContainer::-webkit-scrollbar-track {
+    background: #f6f6f6;
+  }
+  
+  .ShopsContainer::-webkit-scrollbar-thumb {
+    background-color: grey;
+    border-radius: 20px;
+    
+  }
+  .oneShopUpperContainer{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 0.5rem;
+    border-radius: 15px;
+    background-color: #f6f6f6;
+    margin: 1rem 1rem 15px ;
+    transition: all 300ms ease-in;
+  }
+  .oneShopUpperContainerActive{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 0.5rem;
+    border-radius: 15px;
+    background-color: #f6f6f6;
+    margin: 1rem 1rem 15px ;
+    transition: all 300ms ease-in;
+    box-shadow: 0px 0px 11px #afaca3b3;
+  }
+.OneshopContainer{
+    
+ 
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    @media (max-width:850px) {
+        justify-content: center;
+    }
+
+}
+
+.oneShopUpperContainer:hover{
+    box-shadow: 0px 0px 11px #afaca3b3;
+}
+.unreadMessages{
+  
+    padding: 0.25rem 0.7rem;
+    background-color:#4E8075 ;
+    border-radius: 50%;
+    color: #FFF;
+    margin: 0;
+}
+
+.title{
+    margin: 0;
+    @media (max-width:850px) {
+        display: none;
+    }
+}
+.imageCon{
+    
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+}
+.image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
