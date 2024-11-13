@@ -6,7 +6,7 @@ export const createMeeting = async ({ token }) => {
     headers: {
       authorization: `${token}`,
       "Content-Type": "application/json",
-    },
+    }, 
     body: JSON.stringify({ region: "sg001" }),
   });
 
